@@ -7,7 +7,7 @@ This repository provides the data processing codes used in this study, along wit
 ## Repo Contents
 - [data_processing_scripts](https://github.com/LemengLiang/SocietyBench-Data/tree/main/data_processing_scripts): Codes to clean and process original survey data. NLSY, CFPS, Add Health, and Understanding Society are implemented in R, and U.S. Census, CPS-ASEC, and GSS are implemented in python.
 
-Original microdata were obtained from the following platforms:
+  Original microdata were obtained from the following platforms:
   - **NLSY**: [NLSY website](https://nlsinfo.org/investigator/pages/home)
   - **CFPS**: [CFPS website](https://www.isss.pku.edu.cn/cfps/en/index.htm)
   - **Add Health**: [ICPSR documentation](https://www.icpsr.umich.edu/web/ICPSR/studies/21600/datadocumentation)
