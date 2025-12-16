@@ -10,7 +10,7 @@ This repository provides the data processing codes used in this study, along wit
   Original microdata were obtained from the following platforms:
   - **NLSY**: [NLSY website](https://nlsinfo.org/investigator/pages/home)
   - **CFPS**: [CFPS website](https://www.isss.pku.edu.cn/cfps/en/index.htm)
-  - **Add Health**: [ICPSR documentation](https://www.icpsr.umich.edu/web/ICPSR/studies/21600/datadocumentation)
+  - **Add Health**: [ICPSR Add Health](https://www.icpsr.umich.edu/web/ICPSR/studies/21600/datadocumentation)
   - **Understanding Society**: [UK Data Service](https://datacatalogue.ukdataservice.ac.uk/studies/study/6614#details)
   - **U.S. Census**: [IPUMS USA](https://usa.ipums.org/usa/index.shtml)
   - **CPS-ASEC**: [IPUMS CPS](https://cps.ipums.org/cps/)
