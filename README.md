@@ -1,7 +1,20 @@
 # SocietyBench
 ## Overview
 Large Language Models (LLMs) show great promise for simulating human societies, potentially expanding the methodological toolkit of computational social science. However, while existing studies have examined the individual-level predictability or behavioral plausibility of LLM simulations, their ability to reproduce real-world population-level statistical patterns, which lie at the core of social science research, remains largely untested. We introduce SSDataBench, the first systematic benchmark designed to evaluate population-level statistical realism in LLM-based society simulations. The benchmark assesses five types of statistical patterns central to social research: univariate distributions, bivariate associations, multivariate outcome predictions, life event sequence distributions, and the associations between life event sequences and covariate variables. SSDataBench spans four longitudinal datasets and three cross-sectional datasets across six major social domains: demographics, socioeconomic status, marriage, health, abilities, and attitudes. Our analysis uncovers systematic representational limitations in current LLMs, which manifest as a marked tendency to compress real-world heterogeneity into simplified topological structures. Overall, this work establishes a unified statistical testbed for assessing population-level realism and highlights the need for models that represent heterogeneous human societies with greater statistical fidelity.
+
 This repository provides the data processing codes used in this study, along with a limited set of processed datasets that are permitted to be shared. The goal is to facilitate transparency and replication while respecting data use agreements of the original sources. Researchers can use the code in this repository to replicate our workflow or apply the same procedures to the original microdata obtained directly from the data providers.
+
 ## Repo Contents
-- [data_processing_scripts](https://github.com/LemengLiang/SocietyBench-Data/tree/main/data_processing_scripts): 
-- [processed_survey_data](https://github.com/LemengLiang/SocietyBench-Data/tree/main/processed_survey_data):
+- [data_processing_scripts](https://github.com/LemengLiang/SocietyBench-Data/tree/main/data_processing_scripts): Codes to clean and process original survey data. NLSY, CFPS, Add Health, and Understanding Society are implemented in R, and U.S. Census, CPS-ASEC, and GSS are implemented in python.
+
+Original microdata were obtained from the following platforms:
+  - **NLSY**: [NLSY website](https://nlsinfo.org/investigator/pages/home)
+  - **CFPS**: [CFPS website](https://www.isss.pku.edu.cn/cfps/en/index.htm)
+  - **Add Health**: [ICPSR documentation](https://www.icpsr.umich.edu/web/ICPSR/studies/21600/datadocumentation)
+  - **Understanding Society**: [UK Data Service](https://datacatalogue.ukdataservice.ac.uk/studies/study/6614#details)
+  - **U.S. Census**: [IPUMS USA](https://usa.ipums.org/usa/index.shtml)
+  - **CPS-ASEC**: [IPUMS CPS](https://cps.ipums.org/cps/)
+  - **GSS**: [GSS Data Explorer](https://gssdataexplorer.norc.org/MyGSS)
+  
+- [processed_survey_data](https://github.com/LemengLiang/SocietyBench-Data/tree/main/processed_survey_data): Processed datasets that are permitted to be shared, consisting of randomly selected 1,000-person samples from the original data used for simulation.
+
