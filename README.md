@@ -7,7 +7,7 @@ We introduce SSDataBench, the first systematic benchmark designed to evaluate po
 This repository provides the data processing codes used in this study, along with a limited set of processed datasets that are permitted to be shared. The goal is to facilitate transparency and replication while respecting data use agreements of the original sources. Researchers can use the code in this repository to replicate our workflow or apply the same procedures to the original microdata obtained directly from the data providers.
 
 ## Repo Contents
-- [data_processing_scripts](https://github.com/LemengLiang/SocietyBench-Data/tree/main/data_processing_scripts): Codes to clean and process original survey data. NLSY, CFPS, Add Health, and Understanding Society are implemented in R, and U.S. Census, CPS-ASEC, and GSS are implemented in python.
+- [data_processing_scripts](https://github.com/LemengLiang/SocietyBench-Data/tree/main/data_processing_scripts): Codes to clean and process original survey data. NLSY, CFPS, Add Health, and Understanding Society are implemented in STATA, and U.S. Census, CPS-ASEC, and GSS are implemented in python.
 
   Original microdata were obtained from the following platforms:
   - **NLSY**: [NLSY website](https://nlsinfo.org/investigator/pages/home)
